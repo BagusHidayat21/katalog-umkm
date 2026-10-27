@@ -1,0 +1,328 @@
+{
+  "keterangan": "Foto produk Katalog UMKM Lokal (data contoh fiktif P2-W01). Semua foto dari Wikimedia Commons berlisensi terbuka; dikompres ke WebP maksimal 1600 px, kualitas 80, metadata EXIF dihapus. Foto berlisensi CC BY-SA tetap berlisensi CC BY-SA setelah dikompres.",
+  "jumlah_foto": 22,
+  "total_sebelum_kb": 64658,
+  "total_sesudah_kb": 4726,
+  "foto": [
+    {
+      "file_asli": "Keripik_tempe_Lombok.JPG",
+      "file_baru": "keripik-tempe-original.webp",
+      "produk": [
+        "Keripik Tempe Original (Dapur Renyah Bu Ratmi)"
+      ],
+      "ukuran_sebelum_kb": 2459,
+      "ukuran_sesudah_kb": 192,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Keripik_tempe_Lombok.JPG",
+      "pembuat": "Midori",
+      "lisensi": "CC BY 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file_asli": "Keripik_pisang_kepok.JPG",
+      "file_baru": "keripik-pisang-kepok.webp",
+      "produk": [
+        "Keripik Pisang Kepok (Dapur Renyah Bu Ratmi)"
+      ],
+      "ukuran_sebelum_kb": 2366,
+      "ukuran_sesudah_kb": 257,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Keripik_pisang_kepok.JPG",
+      "pembuat": "Sakurai Midori",
+      "lisensi": "CC BY-SA 3.0",
+      "lisensi_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file_asli": "Keripik_singkong_balado_cassava_chips.JPG",
+      "file_baru": "keripik-singkong-balado.webp",
+      "produk": [
+        "Keripik Singkong Balado (Dapur Renyah Bu Ratmi)"
+      ],
+      "ukuran_sebelum_kb": 1751,
+      "ukuran_sesudah_kb": 114,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Keripik_singkong_balado_cassava_chips.JPG",
+      "pembuat": "Sakurai Midori",
+      "lisensi": "CC BY-SA 3.0",
+      "lisensi_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file_asli": "Sambal_cobek.JPG",
+      "file_baru": "sambal-bawang-cobek.webp",
+      "produk": [
+        "Sambal Bawang Cobek (Dapur Renyah Bu Ratmi)"
+      ],
+      "ukuran_sebelum_kb": 2578,
+      "ukuran_sesudah_kb": 305,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Sambal_cobek.JPG",
+      "pembuat": "Midori",
+      "lisensi": "CC BY 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file_asli": "Less_coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png",
+      "file_baru": "kopi-bubuk-robusta.webp",
+      "produk": [
+        "Kopi Bubuk Robusta (Kopi Lereng Arjuno)"
+      ],
+      "ukuran_sebelum_kb": 13649,
+      "ukuran_sesudah_kb": 310,
+      "dimensi_sesudah": "1600x1600",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Less_coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png",
+      "pembuat": "Alorin",
+      "lisensi": "CC BY 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "file_asli": "Palmsugar.jpg",
+      "file_baru": "gula-aren-cetak.webp",
+      "produk": [
+        "Gula Aren Cetak (Kopi Lereng Arjuno)"
+      ],
+      "ukuran_sebelum_kb": 581,
+      "ukuran_sesudah_kb": 115,
+      "dimensi_sesudah": "1600x1196",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Palmsugar.jpg",
+      "pembuat": "Badagnani",
+      "lisensi": "CC BY 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file_asli": "Gula_Aren_Asli_Puncak_Pato.jpg",
+      "file_baru": "gula-aren-tabung.webp",
+      "produk": [
+        "Gula Aren Tabung (Kopi Lereng Arjuno)"
+      ],
+      "ukuran_sebelum_kb": 87,
+      "ukuran_sesudah_kb": 63,
+      "dimensi_sesudah": "780x1040",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Gula_Aren_Asli_Puncak_Pato.jpg",
+      "pembuat": "DwiFidratul",
+      "lisensi": "CC0",
+      "lisensi_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "file_asli": "Kerupuk_udang.JPG",
+      "file_baru": "kerupuk-udang.webp",
+      "produk": [
+        "Kerupuk Udang (Kerupuk Sumber Rasa)"
+      ],
+      "ukuran_sebelum_kb": 2999,
+      "ukuran_sesudah_kb": 130,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Kerupuk_udang.JPG",
+      "pembuat": "Midori",
+      "lisensi": "CC BY-SA 3.0",
+      "lisensi_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file_asli": "Kerupuk_puli_kerupuk_lempeng.JPG",
+      "file_baru": "kerupuk-puli.webp",
+      "produk": [
+        "Kerupuk Puli (Kerupuk Sumber Rasa)"
+      ],
+      "ukuran_sebelum_kb": 2937,
+      "ukuran_sesudah_kb": 182,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Kerupuk_puli_kerupuk_lempeng.JPG",
+      "pembuat": "Midori",
+      "lisensi": "CC BY-SA 3.0",
+      "lisensi_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file_asli": "Emping.jpg",
+      "file_baru": "emping-melinjo.webp",
+      "produk": [
+        "Emping Melinjo (Kerupuk Sumber Rasa)"
+      ],
+      "ukuran_sebelum_kb": 3047,
+      "ukuran_sesudah_kb": 293,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Emping.jpg",
+      "pembuat": "Sakurai Midori",
+      "lisensi": "CC BY-SA 3.0",
+      "lisensi_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file_asli": "Kue_lapis_legit.JPG",
+      "file_baru": "lapis-legit-loyang.webp",
+      "produk": [
+        "Lapis Legit Loyang 20 cm (Dapur Kue Oma Lien)"
+      ],
+      "ukuran_sebelum_kb": 2145,
+      "ukuran_sesudah_kb": 321,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Kue_lapis_legit.JPG",
+      "pembuat": "Sakurai Midori",
+      "lisensi": "CC BY 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file_asli": "Kue_Lapis_Legit_Mini.jpg",
+      "file_baru": "lapis-legit-potong.webp",
+      "produk": [
+        "Lapis Legit Potong (Dapur Kue Oma Lien)"
+      ],
+      "ukuran_sebelum_kb": 2006,
+      "ukuran_sesudah_kb": 106,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Kue_Lapis_Legit_Mini.jpg",
+      "pembuat": "Abdul Hanif Arromy",
+      "lisensi": "CC BY 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "file_asli": "Rengginang_kecil_(1).jpg",
+      "file_baru": "rengginang-ketan.webp",
+      "produk": [
+        "Rengginang Ketan (Dapur Kue Oma Lien)"
+      ],
+      "ukuran_sebelum_kb": 6459,
+      "ukuran_sesudah_kb": 92,
+      "dimensi_sesudah": "1600x1067",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Rengginang_kecil_(1).jpg",
+      "pembuat": "Bangrapip",
+      "lisensi": "CC BY-SA 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file_asli": "Kain_batik_tulis.jpg",
+      "file_baru": "kain-batik-tulis.webp",
+      "produk": [
+        "Kain Batik Tulis Parang Kembang (Batik Kembang Arum)"
+      ],
+      "ukuran_sebelum_kb": 5599,
+      "ukuran_sesudah_kb": 427,
+      "dimensi_sesudah": "900x1600",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Kain_batik_tulis.jpg",
+      "pembuat": "Vuvun",
+      "lisensi": "CC0",
+      "lisensi_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "file_asli": "A_handmade_Batik_Cap_copper_motif_printing_block.jpg",
+      "file_baru": "cap-batik-tembaga.webp",
+      "produk": [
+        "Cap Batik Tembaga Motif Daun (Batik Kembang Arum)"
+      ],
+      "ukuran_sebelum_kb": 2563,
+      "ukuran_sesudah_kb": 217,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:A_handmade_Batik_Cap_copper_motif_printing_block.jpg",
+      "pembuat": "Chiswick Chap",
+      "lisensi": "CC BY-SA 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file_asli": "Anyaman_bambu-Kalo.jpg",
+      "file_baru": "tampah-dan-keranjang-bambu.webp",
+      "produk": [
+        "Set Tampah dan Keranjang Bambu (Anyaman Bambu Lestari)"
+      ],
+      "ukuran_sebelum_kb": 1521,
+      "ukuran_sesudah_kb": 215,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Anyaman_bambu-Kalo.jpg",
+      "pembuat": "Desa.gedangdowo",
+      "lisensi": "CC BY-SA 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file_asli": "Anyaman_buluh_sebagai_cenderahati_di_Kampung_Kuala_Lah_1.jpg",
+      "file_baru": "baki-anyaman-motif-wajik.webp",
+      "produk": [
+        "Baki Anyaman Motif Wajik (Anyaman Bambu Lestari)"
+      ],
+      "ukuran_sebelum_kb": 4710,
+      "ukuran_sesudah_kb": 213,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Anyaman_buluh_sebagai_cenderahati_di_Kampung_Kuala_Lah_1.jpg",
+      "pembuat": "Zahirulnukman",
+      "lisensi": "CC BY-SA 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file_asli": "Kerajinan_Gerabah.jpg",
+      "file_baru": "aneka-gerabah-hias.webp",
+      "produk": [
+        "Aneka Gerabah Hias (Gerabah Tanah Merah)"
+      ],
+      "ukuran_sebelum_kb": 219,
+      "ukuran_sesudah_kb": 152,
+      "dimensi_sesudah": "1280x960",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Kerajinan_Gerabah.jpg",
+      "pembuat": "Asri Nurhayati",
+      "lisensi": "CC BY-SA 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file_asli": "Gerabah_dari_Kasongan.jpg",
+      "file_baru": "guci-gerabah.webp",
+      "produk": [
+        "Guci Gerabah Bertutup (Gerabah Tanah Merah)"
+      ],
+      "ukuran_sebelum_kb": 2019,
+      "ukuran_sesudah_kb": 139,
+      "dimensi_sesudah": "900x1600",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Gerabah_dari_Kasongan.jpg",
+      "pembuat": "Awtux",
+      "lisensi": "CC BY-SA 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file_asli": "Tenun_Ikat_Lombok.JPG",
+      "file_baru": "kain-tenun-ikat.webp",
+      "produk": [
+        "Kain Tenun Ikat (Tenun Ikat Nusa)"
+      ],
+      "ukuran_sebelum_kb": 2439,
+      "ukuran_sesudah_kb": 430,
+      "dimensi_sesudah": "1600x1200",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Tenun_Ikat_Lombok.JPG",
+      "pembuat": "Midori",
+      "lisensi": "CC BY 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file_asli": "Tenun_Ikat_Lombok_3.JPG",
+      "file_baru": "selendang-tenun-ikat.webp",
+      "produk": [
+        "Selendang Tenun Ikat (Tenun Ikat Nusa)"
+      ],
+      "ukuran_sebelum_kb": 1930,
+      "ukuran_sesudah_kb": 340,
+      "dimensi_sesudah": "1600x1227",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Tenun_Ikat_Lombok_3.JPG",
+      "pembuat": "Midori",
+      "lisensi": "CC BY 3.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file_asli": "Gritzner_Sewing_Machine_\"R\",_open.jpg",
+      "file_baru": "mesin-jahit-permak.webp",
+      "produk": [
+        "Permak Celana Jeans (Jahit Rapi Bu Endang)"
+      ],
+      "ukuran_sebelum_kb": 594,
+      "ukuran_sesudah_kb": 113,
+      "dimensi_sesudah": "1542x1157",
+      "sumber": "https://commons.wikimedia.org/wiki/File:Gritzner_Sewing_Machine_%22R%22,_open.jpg",
+      "pembuat": "David Krotz",
+      "lisensi": "CC BY-SA 4.0",
+      "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "perlu_foto": [
+    {
+      "produk": "Jahit Seragam Sekolah",
+      "umkm": "Jahit Rapi Bu Endang",
+      "status": "perlu foto"
+    },
+    {
+      "produk": "Pasang Ritsleting",
+      "umkm": "Jahit Rapi Bu Endang",
+      "status": "perlu foto"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+KREDIT FOTO KATALOG UMKM LOKAL
+Semua foto produk diambil dari Wikimedia Commons dan dipakai sesuai lisensinya.
+Foto sudah diperkecil dan diubah ke format WebP. Nama usaha di katalog adalah data contoh fiktif.
+
+keripik-tempe-original.webp
+  Pembuat : Midori
+  Lisensi : CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Keripik_tempe_Lombok.JPG
+keripik-pisang-kepok.webp
+  Pembuat : Sakurai Midori
+  Lisensi : CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Keripik_pisang_kepok.JPG
+keripik-singkong-balado.webp
+  Pembuat : Sakurai Midori
+  Lisensi : CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Keripik_singkong_balado_cassava_chips.JPG
+sambal-bawang-cobek.webp
+  Pembuat : Midori
+  Lisensi : CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Sambal_cobek.JPG
+kopi-bubuk-robusta.webp
+  Pembuat : Alorin
+  Lisensi : CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Less_coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png
+gula-aren-cetak.webp
+  Pembuat : Badagnani
+  Lisensi : CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Palmsugar.jpg
+gula-aren-tabung.webp
+  Pembuat : DwiFidratul
+  Lisensi : CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Gula_Aren_Asli_Puncak_Pato.jpg
+kerupuk-udang.webp
+  Pembuat : Midori
+  Lisensi : CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Kerupuk_udang.JPG
+kerupuk-puli.webp
+  Pembuat : Midori
+  Lisensi : CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Kerupuk_puli_kerupuk_lempeng.JPG
+emping-melinjo.webp
+  Pembuat : Sakurai Midori
+  Lisensi : CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Emping.jpg
+lapis-legit-loyang.webp
+  Pembuat : Sakurai Midori
+  Lisensi : CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Kue_lapis_legit.JPG
+lapis-legit-potong.webp
+  Pembuat : Abdul Hanif Arromy
+  Lisensi : CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Kue_Lapis_Legit_Mini.jpg
+rengginang-ketan.webp
+  Pembuat : Bangrapip
+  Lisensi : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Rengginang_kecil_(1).jpg
+kain-batik-tulis.webp
+  Pembuat : Vuvun
+  Lisensi : CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Kain_batik_tulis.jpg
+cap-batik-tembaga.webp
+  Pembuat : Chiswick Chap
+  Lisensi : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:A_handmade_Batik_Cap_copper_motif_printing_block.jpg
+tampah-dan-keranjang-bambu.webp
+  Pembuat : Desa.gedangdowo
+  Lisensi : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Anyaman_bambu-Kalo.jpg
+baki-anyaman-motif-wajik.webp
+  Pembuat : Zahirulnukman
+  Lisensi : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Anyaman_buluh_sebagai_cenderahati_di_Kampung_Kuala_Lah_1.jpg
+aneka-gerabah-hias.webp
+  Pembuat : Asri Nurhayati
+  Lisensi : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Kerajinan_Gerabah.jpg
+guci-gerabah.webp
+  Pembuat : Awtux
+  Lisensi : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Gerabah_dari_Kasongan.jpg
+kain-tenun-ikat.webp
+  Pembuat : Midori
+  Lisensi : CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Tenun_Ikat_Lombok.JPG
+selendang-tenun-ikat.webp
+  Pembuat : Midori
+  Lisensi : CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Tenun_Ikat_Lombok_3.JPG
+mesin-jahit-permak.webp
+  Pembuat : David Krotz
+  Lisensi : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  Sumber  : https://commons.wikimedia.org/wiki/File:Gritzner_Sewing_Machine_%22R%22,_open.jpg
