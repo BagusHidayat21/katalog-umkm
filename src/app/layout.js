@@ -27,26 +27,26 @@ export default function RootLayout({ children }) {
       className={`${jakarta.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col font-sans">
-        <header className="border-b border-kopi/15">
+        <header className="border-b border-border">
           <nav className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-4">
             <Link href="/" className="font-serif text-xl font-semibold">
-              Katalog <span className="text-gerabah">UMKM</span>
+              Katalog <span className="text-primary">UMKM</span>
             </Link>
             <div className="flex gap-5 text-sm font-medium">
-              <Link href="/" className="hover:text-gerabah">Beranda</Link>
-              <Link href="/komponen" className="hover:text-gerabah">Komponen</Link>
+              <Link href="/" className="hover:text-primary">Beranda</Link>
+              <Link href="/komponen" className="hover:text-primary">Komponen</Link>
             </div>
           </nav>
         </header>
 
         {children}
 
-        <footer className="mt-auto border-t border-kopi/15">
-          <div className="mx-auto w-full max-w-6xl px-4 py-6 text-sm text-kopi/70">
+        <footer className="mt-auto border-t border-border">
+          <div className="mx-auto w-full max-w-6xl px-4 py-6 text-sm text-muted-foreground">
             <p>Data UMKM di katalog ini adalah contoh fiktif untuk latihan Kelas Industri UBIG.</p>
             <p className="mt-1">
               Foto produk dari Wikimedia Commons dengan lisensi terbuka.{" "}
-              <a href="/images/KREDIT_FOTO.txt" className="underline hover:text-gerabah">Lihat kredit foto</a>
+              <a href="/images/KREDIT_FOTO.txt" className="underline hover:text-primary">Lihat kredit foto</a>
             </p>
           </div>
         </footer>

@@ -1,17 +1,18 @@
 import Image from "next/image";
+import UmkmUnggulan from "@/components/UmkmUnggulan";
 
 export default function Beranda() {
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-10 md:py-16">
       <section className="grid items-center gap-10 md:grid-cols-[1.1fr_1fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-gerabah">
+          <p className="text-sm font-semibold uppercase tracking-widest text-primary">
             Katalog UMKM Lokal &middot; Malang
           </p>
           <h1 className="mt-4 font-serif text-4xl leading-tight md:text-6xl">
             Etalase usaha tetangga, dalam satu halaman.
           </h1>
-          <p className="mt-5 max-w-prose text-lg text-kopi/80">
+          <p className="mt-5 max-w-prose text-lg text-muted-foreground">
             Keripik yang digoreng setiap pagi, batik yang dicanting berminggu-minggu, sampai jahitan
             yang rapi. Kenali UMKM di sekitar sekolah beserta produk andalannya.
           </p>
@@ -38,9 +39,16 @@ export default function Beranda() {
             alt="Aneka gerabah hias dari tanah liat bakar"
             width={1280}
             height={960}
-            className="-mt-10 h-auto w-full rounded-2xl border-4 border-nota md:-mt-16"
+            className="-mt-10 h-auto w-full rounded-2xl border-4 border-background md:-mt-16"
           />
         </div>
+      </section>
+
+      <section className="mt-16">
+        <div className="border-b pb-3">
+          <h2 className="font-serif text-2xl md:text-3xl">UMKM pilihan minggu ini</h2>
+        </div>
+        <UmkmUnggulan />
       </section>
     </main>
   );
