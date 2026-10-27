@@ -49,7 +49,7 @@ export default async function UmkmUnggulan() {
               <div className="bg-muted p-10 text-center text-sm text-muted-foreground">Foto belum tersedia</div>
             )}
             <CardHeader className={urutan === 0 ? "md:pt-6" : ""}>
-              <Badge variant="secondary" className="capitalize">{umkm.kategori}</Badge>
+              <Badge variant={umkm.kategori} className="capitalize">{umkm.kategori}</Badge>
               <CardTitle className={urutan === 0 ? "text-3xl" : "text-xl"}>{umkm.nama}</CardTitle>
               <CardDescription>{umkm.alamat}</CardDescription>
             </CardHeader>

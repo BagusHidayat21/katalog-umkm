@@ -4,6 +4,7 @@ import Card from "@/components/buatan/Card";
 import { Badge } from "@/components/ui/badge";
 import { Button as ButtonUi } from "@/components/ui/button";
 import { Card as CardUi, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import InputBerlabel from "@/components/InputBerlabel";
 
 export const metadata = {
   title: "Komponen",
@@ -84,6 +85,19 @@ export default function Komponen() {
             </CardFooter>
           </CardUi>
 
+
+          <h3 className="mt-6 font-semibold">Badge: variant kategori</h3>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <Badge variant="kuliner">Kuliner</Badge>
+            <Badge variant="kerajinan">Kerajinan</Badge>
+            <Badge variant="jasa">Jasa</Badge>
+          </div>
+
+          <h3 className="mt-6 font-semibold">InputBerlabel</h3>
+          <div className="mt-3 grid max-w-sm gap-4">
+            <InputBerlabel id="nama-usaha" label="Nama usaha" placeholder="Contoh: Dapur Renyah Bu Ratmi" />
+            <InputBerlabel id="email-usaha" label="Email" type="email" defaultValue="dapurrenyah@" error="Format email belum benar, contoh: nama@example.com" />
+          </div>
         </section>
       </div>
     </main>
