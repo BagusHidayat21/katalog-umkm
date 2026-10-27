@@ -15,6 +15,12 @@
   --color-pasir: #EADFCD;
 }
 
+/* Breakpoint kustom: xs untuk ponsel lebar, 3xl untuk layar sangat lebar */
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 120rem;
+}
+
 /* Huruf dari next/font di layout.js */
 @theme inline {
   --font-sans: var(--font-sans);

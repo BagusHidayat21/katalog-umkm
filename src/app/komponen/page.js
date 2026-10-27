@@ -38,6 +38,18 @@ export default function Komponen() {
             <Button disabled>Stok habis</Button>
           </div>
 
+          <h3 className="mt-6 font-semibold">Container query</h3>
+          <div className="mt-3 grid gap-3">
+            {["max-w-56", "max-w-md"].map((lebarWadah) => (
+              <div key={lebarWadah} className={`@container rounded-xl border border-dashed p-3 ${lebarWadah}`}>
+                <div className="flex flex-col gap-2 @xs:flex-row @xs:items-center @xs:justify-between">
+                  <span className="font-semibold">Keripik Tempe Original</span>
+                  <LabelHarga harga={15000} />
+                </div>
+              </div>
+            ))}
+          </div>
+
           <h3 className="mt-6 font-semibold">Card: composition pattern</h3>
           <Card className="mt-3 max-w-sm">
             <Card.Header>

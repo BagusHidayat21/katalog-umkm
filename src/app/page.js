@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import UmkmUnggulan from "@/components/UmkmUnggulan";
+import { buttonVariants } from "@/components/ui/button";
 
 export default function Beranda() {
   return (
@@ -49,6 +51,9 @@ export default function Beranda() {
           <h2 className="font-serif text-2xl md:text-3xl">UMKM pilihan minggu ini</h2>
         </div>
         <UmkmUnggulan />
+        <Link href="/umkm" className={buttonVariants({ size: "lg", className: "mt-8" })}>
+          Lihat semua UMKM
+        </Link>
       </section>
     </main>
   );
