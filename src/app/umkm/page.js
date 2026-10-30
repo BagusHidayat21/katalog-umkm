@@ -33,8 +33,8 @@ export default async function DaftarUmkm() {
 
       {daftarUmkm && daftarUmkm.length > 0 && (
         <div className="mt-8 grid grid-cols-1 gap-4 xs:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4">
-          {daftarUmkm.map((umkm) => (
-            <KartuUmkm key={umkm.id} umkm={umkm} />
+          {daftarUmkm.map((umkm, urutan) => (
+            <KartuUmkm key={umkm.id} umkm={umkm} prioritas={urutan === 0} />
           ))}
         </div>
       )}

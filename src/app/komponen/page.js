@@ -1,3 +1,4 @@
+import Image from "next/image";
 import LabelHarga from "@/components/LabelHarga";
 import Button from "@/components/buatan/Button";
 import Card from "@/components/buatan/Card";
@@ -112,6 +113,37 @@ export default function Komponen() {
           </div>
         </section>
       </div>
+
+      <section className="mt-16">
+        <h2 className="font-serif text-2xl">Rasio dan object-fit</h2>
+        <p className="mt-2 max-w-prose text-muted-foreground">
+          Foto guci ini tegak (900 x 1600 piksel). Kotak menentukan bentuk, object-fit menentukan cara foto mengisi kotak.
+        </p>
+
+        <h3 className="mt-6 font-semibold">Tiga rasio dengan object-cover</h3>
+        <div className="mt-3 grid grid-cols-3 gap-3 sm:gap-4">
+          {["aspect-square", "aspect-4/3", "aspect-video"].map((rasio) => (
+            <figure key={rasio}>
+              <div className={`relative ${rasio} overflow-hidden rounded-xl bg-muted`}>
+                <Image src="/images/guci-gerabah.webp" alt="Guci gerabah tanah liat" fill sizes="33vw" className="object-cover" />
+              </div>
+              <figcaption className="mt-2 font-mono text-xs sm:text-sm">{rasio}</figcaption>
+            </figure>
+          ))}
+        </div>
+
+        <h3 className="mt-6 font-semibold">Empat cara mengisi kotak aspect-square</h3>
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
+          {["object-cover", "object-contain", "object-fill", "object-cover object-top"].map((cara) => (
+            <figure key={cara}>
+              <div className="relative aspect-square overflow-hidden rounded-xl bg-muted">
+                <Image src="/images/guci-gerabah.webp" alt="Guci gerabah tanah liat" fill sizes="(min-width: 640px) 25vw, 50vw" className={cara} />
+              </div>
+              <figcaption className="mt-2 font-mono text-xs sm:text-sm">{cara}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
