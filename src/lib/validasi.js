@@ -43,3 +43,21 @@ export function validasiPendaftaran(data) {
 
   return error;
 }
+
+// Isian form ulasan
+export function ambilUlasan(formData) {
+  return {
+    nama: String(formData.get("nama") ?? "").trim(),
+    rating: String(formData.get("rating") ?? ""),
+    komentar: String(formData.get("komentar") ?? "").trim(),
+  };
+}
+
+export function validasiUlasan(data) {
+  const error = {};
+  const rating = Number(data.rating);
+  if (data.nama === "") error.nama = "Nama wajib diisi.";
+  if (!Number.isInteger(rating) || rating < 1 || rating > 5) error.rating = "Pilih rating 1 sampai 5.";
+  if (data.komentar.length < 10) error.komentar = `Komentar minimal 10 karakter (sekarang ${data.komentar.length}).`;
+  return error;
+}
