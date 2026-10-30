@@ -4,6 +4,7 @@ import { MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import TandaMemuat from "@/components/TandaMemuat";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
@@ -33,6 +34,7 @@ export default function Navbar() {
           {daftarMenu.map((menu) => (
             <Link key={menu.href} href={menu.href} className={aktif(menu.href) ? "text-primary" : "hover:text-primary"}>
               {menu.label}
+              <TandaMemuat />
             </Link>
           ))}
         </div>
@@ -54,6 +56,7 @@ export default function Navbar() {
                   className={`border-b border-border py-3 text-base font-medium ${aktif(menu.href) ? "text-primary" : ""}`}
                 >
                   {menu.label}
+                  <TandaMemuat />
                 </Link>
               ))}
             </div>

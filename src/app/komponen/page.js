@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button as ButtonUi } from "@/components/ui/button";
 import { Card as CardUi, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import InputBerlabel from "@/components/InputBerlabel";
+import { CardSkeleton, ImageSkeleton, ListSkeleton, TextSkeleton } from "@/components/Kerangka";
 
 export const metadata = {
   title: "Komponen",
@@ -142,6 +143,35 @@ export default function Komponen() {
               <figcaption className="mt-2 font-mono text-xs sm:text-sm">{cara}</figcaption>
             </figure>
           ))}
+        </div>
+      </section>
+
+      <section className="mt-16">
+        <h2 className="font-serif text-2xl">Skeleton</h2>
+        <p className="mt-2 max-w-prose text-muted-foreground">
+          Blok berwarna pudar yang berdenyut, dipasang di tempat konten yang sedang dimuat.
+        </p>
+        <div className="mt-6 grid gap-x-10 gap-y-8 md:grid-cols-2">
+          <div>
+            <h3 className="font-semibold">TextSkeleton</h3>
+            <TextSkeleton className="mt-3" />
+          </div>
+          <div>
+            <h3 className="font-semibold">ImageSkeleton</h3>
+            <ImageSkeleton className="mt-3 max-w-xs rounded-xl" />
+          </div>
+          <div>
+            <h3 className="font-semibold">CardSkeleton</h3>
+            <div className="mt-3 max-w-xs">
+              <CardSkeleton />
+            </div>
+          </div>
+          <div>
+            <h3 className="font-semibold">ListSkeleton</h3>
+            <div className="mt-3">
+              <ListSkeleton jumlah={2} />
+            </div>
+          </div>
         </div>
       </section>
     </main>

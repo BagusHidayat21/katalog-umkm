@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+import DaftarUlasan from "@/components/DaftarUlasan";
 import LabelHarga from "@/components/LabelHarga";
 import FormUlasan from "@/components/FormUlasan";
+import { ListSkeleton } from "@/components/Kerangka";
 import VideoProfil from "@/components/VideoProfil";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -12,7 +15,7 @@ export default async function DetailUmkm({ params }) {
   const { slug } = await params;
   const { data: umkm, error } = await supabase
     .from("umkm")
-    .select("id, nama, kategori, deskripsi, alamat, telepon, email, foto_url, video_youtube, produk(id, nama, harga, deskripsi, foto_url), ulasan(id, nama, rating, komentar, created_at)")
+    .select("id, nama, kategori, deskripsi, alamat, telepon, email, foto_url, video_youtube, produk(id, nama, harga, deskripsi, foto_url)")
     .eq("slug", slug)
     .maybeSingle();
 
@@ -27,9 +30,6 @@ export default async function DetailUmkm({ params }) {
     );
   }
   if (!umkm) notFound();
-
-  // Ulasan terbaru di atas
-  const daftarUlasan = [...umkm.ulasan].sort((a, b) => b.created_at.localeCompare(a.created_at));
 
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-10">
@@ -111,20 +111,12 @@ export default async function DetailUmkm({ params }) {
       <section className="mt-14 grid gap-8 lg:grid-cols-[3fr_2fr]">
         <div>
           <h2 className="border-b pb-3 font-serif text-2xl md:text-3xl">Ulasan pembeli</h2>
-          {daftarUlasan.length === 0 && (
-            <p className="mt-6 text-muted-foreground">Belum ada ulasan. Jadilah yang pertama!</p>
-          )}
-          <ul className="mt-6 grid gap-4">
-            {daftarUlasan.map((ulasan) => (
-              <li key={ulasan.id} className="rounded-xl border bg-card p-4">
-                <p className="font-semibold">{ulasan.nama}</p>
-                <p className="text-kunyit" aria-label={`Rating ${ulasan.rating} dari 5`}>
-                  {"★".repeat(ulasan.rating)}{"☆".repeat(5 - ulasan.rating)}
-                </p>
-                <p className="mt-2 text-muted-foreground">{ulasan.komentar}</p>
-              </li>
-            ))}
-          </ul>
+          <div className="mt-6">
+            {/* Bagian atas halaman tampil lebih dulu; ulasan menyusul setelah datanya siap */}
+            <Suspense fallback={<ListSkeleton />}>
+              <DaftarUlasan umkmId={umkm.id} />
+            </Suspense>
+          </div>
         </div>
         <div>
           <h2 className="border-b pb-3 font-serif text-2xl md:text-3xl">Tulis ulasan</h2>
