@@ -12,6 +12,7 @@ const daftarMenu = [
   { href: "/", label: "Beranda" },
   { href: "/umkm", label: "Daftar UMKM" },
   { href: "/komponen", label: "Komponen" },
+  { href: "/daftar", label: "Daftarkan UMKM" },
 ];
 
 export default function Navbar() {
