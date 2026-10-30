@@ -26,7 +26,9 @@ export default function Beranda() {
             alt="Tumpukan kain tenun ikat berwarna cerah"
             width={1600}
             height={1200}
+            sizes="(min-width: 768px) 45vw, 100vw"
             loading="eager"
+            fetchPriority="high"
             className="col-span-2 h-auto w-full rounded-2xl"
           />
           <Image
@@ -34,6 +36,7 @@ export default function Beranda() {
             alt="Keripik pisang kepok bergelombang di atas piring"
             width={1600}
             height={1200}
+            sizes="(min-width: 768px) 22vw, 50vw"
             className="h-auto w-full rounded-2xl"
           />
           <Image
@@ -41,6 +44,7 @@ export default function Beranda() {
             alt="Aneka gerabah hias dari tanah liat bakar"
             width={1280}
             height={960}
+            sizes="(min-width: 768px) 22vw, 50vw"
             className="-mt-10 h-auto w-full rounded-2xl border-4 border-background md:-mt-16"
           />
         </div>

@@ -35,18 +35,21 @@ export default async function UmkmUnggulan() {
         const hargaTermurah = daftarHarga.length > 0 ? Math.min(...daftarHarga) : null;
 
         return (
-          <Card key={umkm.id} className={urutan === 0 ? "md:col-span-2 md:grid md:grid-cols-2 md:grid-rows-[auto_1fr_auto] md:gap-x-0 md:py-0" : ""}>
+          <Card key={umkm.id} className={urutan === 0 ? "pt-0 md:col-span-2 md:grid md:grid-cols-2 md:grid-rows-[auto_1fr_auto] md:gap-x-0 md:py-0" : "pt-0"}>
             {umkm.foto_url ? (
-              <Image
-                src={umkm.foto_url}
-                alt={`Produk ${umkm.nama}`}
-                width={1600}
-                height={1200}
-                loading="eager"
-                className={urutan === 0 ? "h-auto w-full md:row-span-3" : "h-auto w-full"}
-              />
+              <div className={urutan === 0 ? "relative aspect-4/3 md:row-span-3 md:aspect-auto" : "relative aspect-4/3"}>
+                <Image
+                  src={umkm.foto_url}
+                  alt={`Produk ${umkm.nama}`}
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
             ) : (
-              <div className="bg-muted p-10 text-center text-sm text-muted-foreground">Foto belum tersedia</div>
+              <div className="flex aspect-4/3 items-center justify-center bg-muted text-sm text-muted-foreground">
+                Foto belum tersedia
+              </div>
             )}
             <CardHeader className={urutan === 0 ? "md:pt-6" : ""}>
               <Badge variant={umkm.kategori} className="capitalize">{umkm.kategori}</Badge>
